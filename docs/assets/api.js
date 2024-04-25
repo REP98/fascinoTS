@@ -1,4 +1,4 @@
-const Path = location.origin == "http://localhost" ? "docs/api/" : "api/";
+const Path = location.origin == "http://localhost" ? "docs/api/" : "fascinoTS/api/";
 function loadMain(url) {
 	let Main = _$("#main")
 	Main.html("")
