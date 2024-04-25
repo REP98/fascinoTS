@@ -89,7 +89,7 @@ out
 
 # Nuxt.js build / generate output
 .nuxt
-dist
+
 
 # Gatsby files
 .cache/
@@ -97,8 +97,13 @@ dist
 # https://nextjs.org/blog/next-9-1#public-directory-support
 # public
 
-# vuepress build output
+# VuePress default temp directory
+.vuepress/.temp
+# VuePress default cache directory
+.vuepress/.cache
+# VuePress default build output directory
 .vuepress/dist
+
 
 # vuepress v2.x temp and cache directory
 .temp
@@ -121,6 +126,7 @@ dist
 
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
+.vscode
 
 # yarn v2
 .yarn/cache
@@ -128,3 +134,9 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+docs/assets/ace/
+docs/assets/demo.js
+docs/codes/
+
+*-lock*

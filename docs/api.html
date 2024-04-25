@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Api Fascino</title>
+    <link rel="icon" href="assets/images/logo_white_512.png" />
+    <link rel="stylesheet" href="assets/vendor.min.css">
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/fascinoTs.umd.cjs"></script>
+    <script src="assets/vendor.min.js"></script>
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top" style="background-color: #1d182e;">
+        <nav class="container-xxl flex-wrap flex-lg-nowrap">
+            <a class="navbar-brand p-0 me-0 me-lg-2 me-auto" href="/" aria-label="Bootstrap">
+                <img src="assets/images/logo_white.png" alt="Logo FascinoV2" width="44" loading="lazy">
+            </a>
+            <button class="navbar-toggler d-flex d-lg-none order-3 p-2 border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#bdNavbar" aria-controls="bdNavbar" aria-label="Toggle navigation">
+                <i class="bi-three-dots-vertical"></i>
+            </button>
+            <div class="offcanvas-lg offcanvas-end flex-grow-1" tabindex="-1" id="bdNavbar" aria-labelledby="offcanvasLabel">
+                <div class="offcanvas-header px-4 pb-0">
+                    <h5 class="offcanvas-title text-white" id="offcanvasLabel">Menú</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close" data-bs-target="#bdNavbar"></button>
+                </div>
+                <div class="offcanvas-body p-4 pt-0 p-lg-0">
+                    <hr class="d-lg-none text-white-50">
+                    <ul class="navbar-nav flex-row flex-wrap bd-navbar-nav">
+                        <li class="nav-item col-6 col-lg-auto">
+                            <a href="/#home" class="nav-link py-2 px-0 px-lg-2" aria-current="true">
+                                <i class="bi-speedometer me-1"></i> Inicio
+                            </a>
+                        </li>
+                        <li class="nav-item col-6 col-lg-auto">
+                            <a href="/#download" class="nav-link py-2 px-0 px-lg-2">
+                                <i class="bi-cloud-arrow-down me-1"></i> Descargar
+                            </a>
+                        </li>
+                        <li class="nav-item col-6 col-lg-auto">
+                            <a href="api.html" class="nav-link py-2 px-0 px-lg-2 active">
+                                <i class="bi-book-half me-1"></i> Api
+                            </a>
+                        </li>
+                    </ul>
+                    <hr class="d-lg-none text-white-50">
+                    <ul class="navbar-nav flex-row flex-wrap ms-md-auto">
+                        <li class="nav-item col-6 col-lg-auto">
+                            <a href="https://github.com/REP98/fascinoTS" class="nav-link py-2 px-0 px-lg-2" target="_blank">
+                                <i class="bi-github"></i>
+                                <span class="d-none">Github</span>
+                            </a>
+                        </li>
+                        <li class="nav-item col-6 col-lg-auto">
+                            <a href="https://rep98.vzlaweb.com" class="nav-link py-2 px-0 px-lg-2" target="_blank">
+                                <img src="assets/images/logo_rep.png" alt="Logo REP98" width="64">
+                                <span class="d-none"> Autor</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-md-4 col-lg-2" id="sidebar">
+                <nav style="position: sticky; top: 5rem;"></nav>
+            </div>
+            <div class="col-12 col-md-8 col-lg-10" id="main"></div>
+        </div>
+    </main>
+    <footer style="background-color: #1f1931;border-top: 4px solid #352e4d;padding-top: 3rem;padding-bottom: 2rem;">
+        <div class="container">
+            <div class="align-items-center d-flex flex-column justify-content-center">
+                <img src="assets/images/logo_white_512.png" alt="Logo Fascino" width="250">
+                <h2>FASCINO J{T}S V2</h2>
+                <div class="d-flex ">
+                    &copy;<a href="https://rep98.vzlaweb.com" aria-label="Logo REP98">
+                        <img src="assets/images/logo_rep.png" alt="REP98" width="128">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/api.js" defer></script>
+</body>
+</html>

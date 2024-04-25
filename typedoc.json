@@ -1,0 +1,28 @@
+{
+    "name": "Api Fascino",
+    "titleLink": "/",
+    "entryPointStrategy": "expand",
+    "entryPoints": ["src/**"],
+    "exclude": ["**/node_modules/**", "src/vite-env.d.ts", "src/index.ts"],
+    "out": "./docs/api",
+    "plugin": [
+        "typedoc-plugin-rename-defaults",
+        "typedoc-plugin-merge-modules",
+        "typedoc-plugin-missing-exports",
+        "typedoc-plugin-coverage",
+        "typedoc-plugin-markdown",
+        "typedoc-github-wiki-theme"
+    ],
+    "cleanOutputDir": true,
+    "excludePrivate": true,		
+    "excludeInternal": true,
+    "excludeReferences": true,
+    "jsDocCompatibility": true,		
+    "includeVersion": true,
+    "mergeModulesRenameDefaults": true,
+    "mergeModulesMergeMode": "module",
+    "navigationLinks": {
+        "GitHub": "https://github.com/REP98/fascinoTS",
+        "REP98": "https://rep98.vzlaweb.com"
+    }
+}

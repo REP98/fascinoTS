@@ -1,0 +1,39 @@
+:root {
+    --fs-color-rose: #c91f43;
+    --fs-color-purple: #1f1931;
+    --fs-color-ligthpurple: #352e4d;
+}
+.bg-rose{
+    background-color: var(--fs-color-rose);
+}
+.text-rose{
+    color: var(--fs-color-rose);
+}
+*:focus{
+    box-shadow: none;
+}
+@media (width < 800px) {
+    .lead{
+        text-align: justify;
+    }
+}
+.active-link {
+    color: var(--fs-color-rose) !important;
+}
+code{
+    color: var(--fs-color-rose);
+}
+#sidebar a {
+    color: #ffffff80;
+}
+#sidebar a:focus,
+#sidebar a:hover{
+    color:  #fff;
+}
+#main a {
+    color: var(--fs-color-rose);
+}
+#main a:hover,
+#main a:focus {
+    --fs-color-purple: #1f1931;
+}
