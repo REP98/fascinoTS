@@ -1,7 +1,6 @@
 ## Api Fascino
 
 - [Home](../wiki/Home)
-- [Exports](../wiki/Exports)
 
 ### Modulos
 

@@ -41,7 +41,7 @@ _$(() => {
 	// Carga el DOM
 	let sidebar = _$("#sidebar nav")
 	loadMain("api/Home")
-	sidebar.load("api/_Sidebar.md")
+	sidebar.load("api/Exports.md")
 		.finally((res) => {
 			_$("ul", sidebar.first).addClass("nav", "flex-column")
 			_$("li", sidebar.first).addClass("nav-item")

@@ -1,19 +1,20 @@
-# Api Fascino - v2.0.0
+## Api Fascino
 
-## Tabla de Contenido
+- [Home](../wiki/Home)
+- [Exports](../wiki/Exports)
 
-### Modules
+### Modulos
 
 - [Browser](../wiki/Browser)
 - [DOM](../wiki/DOM)
-- [DOM/Data](../wiki/DOM.Data)
-- [DOM/Event](../wiki/DOM.Event)
-- [DOM/Selector](../wiki/DOM.Selector)
+    + [Data](../wiki/DOM.Data)
+    + [Event](../wiki/DOM.Event)
+    + [Selector](../wiki/DOM.Selector)
 - [Http](../wiki/Http)
-- [Http/Fetchs](../wiki/Http.Fetchs)
-- [Http/HeaderFetch](../wiki/Http.HeaderFetch)
-- [Http/Serialize](../wiki/Http.Serialize)
+    + [Fetchs](../wiki/Http.Fetchs)
+    + [HeaderFetch](../wiki/Http.HeaderFetch)
+    + [Serialize](../wiki/Http.Serialize)
 - [Types](../wiki/Types)
 - [Utils](../wiki/Utils)
-- [Utils/Hooks](../wiki/Utils.Hooks)
-- [Utils/Storage](../wiki/Utils.Storage)
+    + [Hooks](../wiki/Utils.Hooks)
+    + [Storage](../wiki/Utils.Storage)

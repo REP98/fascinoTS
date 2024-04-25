@@ -18,23 +18,20 @@ git clone https://github.com/REP98/fascinoTS.git
 ```
 por npm
 ```shell
-npm i --save @rep985/fascinoTs
+npm i --save @rep985/fascinots
 ```
 o integrarlo directamente a su proyecto por jsDelivr
 ```html
 <!-- Solo el core -->
-<script src="https://cdn.jsdelivr.net/npm/fascinoTs@1.1.0/dist/fascinoTs.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@rep985/fascinots@2.0.0/dist/fascino.umd.js"></script>
 ```
-```html
-<!-- Core con plugin -->
-<script src="https://cdn.jsdelivr.net/npm/fascinoTs@1.1.0/dist/fascinoTs-all.min.js"></script>
-```
+
 
 ## Ejemplo
 
 Desde Node con Typescript
 ```TS
-import {Fascino} from "@rep985/fascinoTs";
+import {Fascino} from "@rep985/fascinots";
 
 new Fascino(() => {
     // Esto se ejecuta al cargar el navegador
@@ -54,7 +51,7 @@ Desde el Navegador
 ```
 ## Documentación Oficial
 
-Puedo saber mas en la [página oficial](https://rep98.github.io/fascino)
+Puedo saber mas en la [página oficial](https://rep98.github.io/fascinoTS)
 
 ## Licencia
 FascinoTs licenciado bajo la licencia [MIT](LICENCES)
